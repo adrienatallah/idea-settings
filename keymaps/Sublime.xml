@@ -129,9 +129,7 @@
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
-  <action id="ExternalSystem.ToggleAutoImport">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
@@ -168,6 +166,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="GuiDesigner.CreateListener" />
+  <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -199,6 +198,10 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="NextOccurence" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="PreviousOccurence" />
